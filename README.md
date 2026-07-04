@@ -7,7 +7,7 @@
 Semantic Legal Search • Multi-Agent AI • LangGraph • ChromaDB • FastAPI • Celery • Redis • React
 
 </div>
----
+
 
 ## 📖 Overview
 
