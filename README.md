@@ -1,17 +1,12 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shield.svg" alt="L.I.G.H.T. Logo" width="80" height="80" />
-  
-  <h1>L.I.G.H.T. - NYAYA VAANI</h1>
-  <p><strong>Legal Information & Guidance Help Terminal</strong></p>
-  
-  <p>
-    <a href="#architecture">Architecture</a> •
-    <a href="#features">Features</a> •
-    <a href="#tech-stack">Tech Stack</a> •
-    <a href="#getting-started">Getting Started</a>
-  </p>
-</div>
 
+# ⚖️ NYAYA-VAANI
+
+### Production-Grade Distributed AI Legal & Civic Assistance Platform
+
+Semantic Legal Search • Multi-Agent AI • LangGraph • ChromaDB • FastAPI • Celery • Redis • React
+
+</div>
 ---
 
 ## 📖 Overview
