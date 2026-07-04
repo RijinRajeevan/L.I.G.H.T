@@ -1,0 +1,43 @@
+fastapi
+uvicorn
+groq
+python-dotenv
+pandas
+numpy
+scikit-learn
+kaggle
+pydantic
+python-multipart
+requests
+aiofiles
+
+# Multimodal Input/Output
+paddlepaddle
+paddleocr
+edge-tts
+Pillow
+reportlab
+
+# Google ADK Integration
+google-adk>=0.1.0
+litellm>=1.0.0
+
+# --------------------------
+# Production Infrastructure
+# --------------------------
+chromadb
+sentence-transformers
+celery
+redis
+apscheduler
+slowapi
+mcp
+langgraph
+langgraph-checkpoint
+langgraph-checkpoint-sqlite
+sqlalchemy
+aiosqlite
+asyncpg
+prometheus-client
+pytest
+pytest-asyncio

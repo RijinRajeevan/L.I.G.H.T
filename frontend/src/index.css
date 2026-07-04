@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gov-navy: #0B132B;
+  --color-gov-navy-light: #1C2541;
+  --color-gov-gold: #C6A756;
+  --color-gov-text: #EAEAEA;
+  --color-gov-text-muted: #A9B0C3;
+}
+
+/* Base Styles */
+@layer base {
+  html,
+  body,
+  #root {
+    @apply h-screen w-screen m-0 p-0 overflow-hidden bg-gov-navy text-gov-text font-sans selection:bg-gov-gold/30;
+  }
+}
+
+/* Base custom classes to replace the old ones safely */
+@utility glass-panel {
+  @apply bg-gov-navy-light border border-white/5 rounded-xl shadow-md;
+}
+
+@utility neural-link-log {
+  @apply font-mono text-[11px] text-gov-text-muted;
+}
+
+/* Typing Indicator Animation */
+@keyframes typing-dot {
+  0% { transform: translateY(0px); opacity: 0.5; }
+  50% { transform: translateY(-4px); opacity: 1; }
+  100% { transform: translateY(0px); opacity: 0.5; }
+}
+
+.animate-typing-dot {
+  animation: typing-dot 1.4s infinite ease-in-out;
+}
+
+/* Clean Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full hover:bg-white/20 transition-colors;
+}
